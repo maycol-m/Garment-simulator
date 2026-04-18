@@ -1,16 +1,16 @@
-public class CasualFactory implements GarmentFactory {
+public class PartyFactory implements GarmentFactory {
     @Override
     public Top createTop() {
-        return new CasualTop();
+        return new PartyTop();
     }
 
     @Override
     public Pants createPants() {
-        return new CasualPants();
+        return new PartyPants();
     }
 
     @Override
     public Shoes createShoes() {
-        return new CasualShoes();
+        return new PartyShoes();
     }
 }
